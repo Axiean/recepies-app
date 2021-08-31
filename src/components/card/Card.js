@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 import Swal from "sweetalert2";
-
+import Gh from "../../images/img4.png";
 function Card({
   title,
   image,
@@ -23,7 +23,7 @@ function Card({
       background: "#fff url(/images/trees.png)",
       backdrop: `
       rgba(0,0,123,0.4)
-      url("/images/nyan-cat.gif")
+      url(${Gh})
       left top
       no-repeat
     `,

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: rgb(255, 240, 249);
@@ -38,4 +39,19 @@ body {
 .search_form button:hover {
   background-color: rgb(124, 122, 236);
   color: white;
+}
+#start {
+  /* background-color: azure; */
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+#bg {
+  margin-left: 13vw;
+}
+#start h1 {
+  margin-left: 1vw;
+  font-size: 6vw;
+  letter-spacing: 0.3vw;
+  color: rgb(51, 51, 51);
 }
