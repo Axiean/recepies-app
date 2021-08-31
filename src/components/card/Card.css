@@ -1,0 +1,94 @@
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  border-radius: 7px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all ease-in-out 0.2s;
+  position: relative;
+}
+.card:hover {
+  background-color: rgb(255, 249, 242);
+  transform: scale(1.01);
+}
+.card_info {
+  width: 100%;
+}
+.card .title {
+  position: relative;
+  width: 80%;
+  margin-top: 1.4vw;
+  font-size: 3vw;
+  color: rgb(44, 44, 44);
+  margin-left: 2vw;
+}
+.card img {
+  border-radius: 8px 0 0 8px;
+  /* width: 40%; */
+  /* height: 100%; */
+}
+.card .mealtype {
+  background-color: rgb(123, 147, 255);
+  /* display: inline-block; */
+  height: fit-content;
+  font-weight: 300;
+  width: fit-content;
+  padding: 0.3vw;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+.card h2 {
+  /* display: inline-block; */
+  margin-left: 2vw;
+  font-size: medium;
+  font-weight: 400;
+}
+.card ul {
+  list-style: none;
+  display: inline-block;
+}
+.card .calories {
+  font-size: medium;
+  font-weight: 300;
+  position: absolute;
+  right: 1vw;
+  bottom: 1vw;
+}
+.card .dishtype {
+  background-color: rgb(255, 209, 255);
+  /* display: inline-block; */
+  height: fit-content;
+  font-weight: 300;
+  width: fit-content;
+  padding: 0.3vw;
+  color: rgb(39, 39, 39);
+  border-radius: 4px;
+  margin-left: 2vw;
+  margin-top: 0.3vw;
+}
+.card_info button {
+  padding: 1vw 4vw;
+  font-size: 1.4vw;
+  outline: none;
+  border: 2px solid rgb(124, 122, 236);
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  position: absolute;
+  bottom: 2vw;
+  margin-left: 4vw;
+  letter-spacing: 0.1vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card_info button:hover {
+  background-color: rgb(124, 122, 236);
+  color: white;
+}
